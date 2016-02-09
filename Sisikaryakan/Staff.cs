@@ -8,9 +8,18 @@ namespace Sisikaryakan
 {
     class Staff : Karyawan
     {
-        public String _gajiPokok;
-        public String _tunjangan;
+        public int _gajiPokok;
+        public int _tunjanganKaryawan;
 
+        public Staff()
+        {
+
+        }
+
+        public Staff(string jabatan)
+        {
+            this._jabatan = jabatan;
+        }
 
 
     }
