@@ -11,7 +11,7 @@ namespace Sisikaryakan
         public String _nama;
         public String _jabatan;
         public DateTime _tanggalMasukKerja;
-        public String _assignment;
+        public String _tugas;
         public String _pemberhentian;
 
         public Karyawan()
@@ -37,10 +37,10 @@ namespace Sisikaryakan
         }
 
 
-        public String assignment
+        public String tugas
         {
-            get { return _assignment; }
-            set { _assignment = assignment; }
+            get { return _tugas; }
+            set { _tugas = tugas; }
         }
 
         public String pemberhentian
