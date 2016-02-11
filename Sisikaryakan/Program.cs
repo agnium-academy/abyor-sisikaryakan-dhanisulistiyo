@@ -65,12 +65,14 @@ namespace Sisikaryakan
 
             dwi._nama = "Dwi";
             dwi._tanggalMasukKerja = "1 Desember 2015";
+            dwi._training = "Drilling";
             dwi._gajiPokok = 3000000;
             dwi._tunjanganKaryawan = 500000;
             
 
             trio._nama = "Trio";
             trio._tanggalMasukKerja = "1 Desember 2015";
+            trio._training = "Drilling";
             trio._gajiPokok = 3000000;
             trio._tunjanganKaryawan = 500000;
 
@@ -130,12 +132,14 @@ namespace Sisikaryakan
                 Console.WriteLine("Nama : " + dwi._nama);
                 Console.WriteLine("Jabatan : " + dwi._jabatan);
                 Console.WriteLine("Tanggal Masuk Kerja : " + dwi._tanggalMasukKerja);
+                Console.WriteLine("Training : " + trio._training);
                 Console.WriteLine("Gaji Pokok : " + dwi._gajiPokok);
                 Console.WriteLine("Tunjangan Karyawan : " + dwi._tunjanganKaryawan + Environment.NewLine);
 
                 Console.WriteLine("Nama : " + trio._nama);
                 Console.WriteLine("Jabatan : " + trio._jabatan);
                 Console.WriteLine("Tanggal Masuk Kerja : " + trio._tanggalMasukKerja);
+                Console.WriteLine("Training : " + trio._training);
                 Console.WriteLine("Gaji Pokok : " + trio._gajiPokok);
                 Console.WriteLine("Tunjangan Karyawan : " + trio._tunjanganKaryawan + Environment.NewLine);
                 Console.ReadLine();
