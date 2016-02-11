@@ -8,6 +8,7 @@ namespace Sisikaryakan
 {
     class Staff : Karyawan
     {
+        public string _training;
         public int _gajiPokok;
         public int _tunjanganKaryawan;
 
